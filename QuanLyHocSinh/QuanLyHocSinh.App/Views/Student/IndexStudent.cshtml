@@ -1,0 +1,68 @@
+﻿@model IEnumerable<QuanLyHocSinh.Models.StudentModel>
+
+@{
+    ViewData["Title"] = "Học sinh";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="float-right">
+                <button class="btn btn-primary" id="btnAddHs">Thêm học sinh</button>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Danh sách học sinh</h2>
+            <div id="dsHS">
+                <partial name="_GetListStudent" model="Model" />
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+
+        $('#btnAddHs').click(function () {
+            ShowPopupCustomize('/student/_InsertStudent', "Thêm HS", 700, 1, "", "");
+        })
+
+        var onSuccess = function (e) {
+            $.ajax({
+                url: '/student/_GetListStudent',
+                type: 'GET',
+                success: function (rs) {
+                    $('#dsHS').html(rs);
+                }
+            });
+        }
+        var onComplete = function () {
+            $('#modal-notify').modal('hide');
+        }
+        var onError = function (err) {
+            alert("Thất bại")
+        }
+
+        var updateHs = function (id) {
+            ShowPopupCustomize('/student/_UpdateStudent?id='+id, "Sửa HS", 700, 1, "", "");
+        }
+
+        var deleteHS = function (id) {
+            var conf = confirm('Xóa ?');
+            if (conf) {
+                $.ajax({
+                    url: '/student/DelStudent',
+                    type: 'POST',
+                    data: { id: id },
+                    success: function () {
+                        onSuccess(null);
+                    }
+                });
+            }
+        }
+    </script>
+}

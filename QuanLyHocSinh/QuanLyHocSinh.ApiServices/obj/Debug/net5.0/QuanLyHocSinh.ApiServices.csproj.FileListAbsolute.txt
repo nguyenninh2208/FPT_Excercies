@@ -1,0 +1,15 @@
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\bin\Debug\net5.0\QuanLyHocSinh.ApiServices.deps.json
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\bin\Debug\net5.0\QuanLyHocSinh.ApiServices.dll
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\bin\Debug\net5.0\ref\QuanLyHocSinh.ApiServices.dll
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\bin\Debug\net5.0\QuanLyHocSinh.ApiServices.pdb
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\QuanLyHocSinh.ApiServices.csproj.AssemblyReference.cache
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\QuanLyHocSinh.ApiServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\QuanLyHocSinh.ApiServices.AssemblyInfoInputs.cache
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\QuanLyHocSinh.ApiServices.AssemblyInfo.cs
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\QuanLyHocSinh.ApiServices.csproj.CoreCompileInputs.cache
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\QuanLyHocSinh.ApiServices.dll
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\ref\QuanLyHocSinh.ApiServices.dll
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\QuanLyHocSinh.ApiServices.pdb
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\bin\Debug\net5.0\QuanLyHocSinh.Models.dll
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\bin\Debug\net5.0\QuanLyHocSinh.Models.pdb
+D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.ApiServices\obj\Debug\net5.0\QuanLyHocSinh.ApiServices.csproj.CopyComplete

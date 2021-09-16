@@ -1,0 +1,21 @@
+﻿@model QuanLyHocSinh.Models.StudentModel
+
+<form asp-action="UpdateStudent" asp-controller="Student" data-ajax="true" data-ajax-method="POST" data-ajax-success="onSuccess" data-ajax-complete="onComplete" data-ajax-failure="onError">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="ID" />
+    <div class="form-group">
+        <label>Tên:</label>
+        <input type="text" asp-for="Name" class="form-control" placeholder="Tên">
+    </div>
+    <div class="form-group">
+        <label>Lớp:</label>
+        <input type="text" asp-for="Class" class="form-control" placeholder="Lớp">
+    </div>
+    <div class="form-group">
+        <label>Ngày sinh:</label>
+        <input type="text" asp-for="B_Day" class="form-control" placeholder="Ngày Sinh">
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>
+
+<script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>

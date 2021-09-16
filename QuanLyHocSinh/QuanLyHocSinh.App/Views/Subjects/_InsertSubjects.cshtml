@@ -1,0 +1,12 @@
+﻿@model QuanLyHocSinh.Models.SubjectsModel
+
+<form asp-action="InsertSubjects" asp-controller="Subjects" data-ajax="true" data-ajax-method="POST" data-ajax-success="onSuccess" data-ajax-complete="onComplete" data-ajax-failure="onError">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label>Tên môn học:</label>
+        <input type="text" asp-for="SubjectName" class="form-control" placeholder="Mã">
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>
+
+<script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>

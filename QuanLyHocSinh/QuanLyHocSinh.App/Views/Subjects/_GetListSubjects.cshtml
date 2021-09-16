@@ -1,0 +1,23 @@
+﻿@model IEnumerable<QuanLyHocSinh.Models.SubjectsModel>
+
+<table class="table table-sm table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên môn học</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.SubjectName</td>
+                <td><button onclick="updateSub('@item.ID')" class="btn btn-toolbar btn-outline-success">Sửa</button></td>
+                <td><button onclick="deleteSub('@item.ID')" class="btn btn-toolbar btn-outline-danger">Xóa</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
