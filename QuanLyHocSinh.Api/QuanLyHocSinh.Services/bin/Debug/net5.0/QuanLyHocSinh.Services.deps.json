@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "QuanLyHocSinh.Services/1.0.0": {
+        "dependencies": {
+          "QuanLyHocSinh.DTO": "1.0.0"
+        },
+        "runtime": {
+          "QuanLyHocSinh.Services.dll": {}
+        }
+      },
+      "QuanLyHocSinh.DTO/1.0.0": {
+        "runtime": {
+          "QuanLyHocSinh.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuanLyHocSinh.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuanLyHocSinh.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

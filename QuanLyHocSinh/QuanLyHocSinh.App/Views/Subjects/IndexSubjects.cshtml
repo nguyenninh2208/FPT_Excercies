@@ -1,0 +1,68 @@
+﻿@model IEnumerable<QuanLyHocSinh.Models.SubjectsModel>
+
+@{
+    ViewData["Title"] = "Môn học";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="float-right">
+                <button class="btn btn-primary" id="btnAddSub">Thêm môn học</button>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Danh sách học sinh</h2>
+            <div id="dsSubj">
+                <partial name="_GetListSubjects" model="Model" />
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+
+        $('#btnAddSub').click(function () {
+            ShowPopupCustomize('/subjects/_InsertSubjects', "Thêm môn học", 700, 1, "", "");
+        })
+
+        var onSuccess = function (e) {
+            $.ajax({
+                url: '/subjects/_GetListSubjects',
+                type: 'GET',
+                success: function (rs) {
+                    $('#dsSubj').html(rs);
+                }
+            });
+        }
+        var onComplete = function () {
+            $('#modal-notify').modal('hide');
+        }
+        var onError = function (err) {
+            alert("Thất bại")
+        }
+
+        var updateSub = function (id) {
+            ShowPopupCustomize('/subjects/_UpdateSubjects?id='+id, "Sửa môn học", 700, 1, "", "");
+        }
+
+        var deleteSub = function (id) {
+            var conf = confirm('Xóa ?');
+            if (conf) {
+                $.ajax({
+                    url: '/subjects/DelSubjects',
+                    type: 'POST',
+                    data: { id: id },
+                    success: function () {
+                        onSuccess(null);
+                    }
+                });
+            }
+        }
+    </script>
+}

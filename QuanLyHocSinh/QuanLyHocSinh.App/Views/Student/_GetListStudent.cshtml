@@ -1,0 +1,30 @@
+﻿@model IEnumerable<QuanLyHocSinh.Models.StudentModel>
+
+
+<table class="table table-sm table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Mã</th>
+            <th>Tên</th>
+            <th>Lớp</th>
+            <th>Ngày sinh</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Code</td>
+                <td>@item.Name</td>
+                <td>@item.Class</td>
+                <td>@item.B_Day</td>
+                <td><button onclick="updateHs('@item.ID')" class="btn btn-toolbar btn-outline-success">Sửa</button></td>
+                <td><button onclick="deleteHS('@item.ID')" class="btn btn-toolbar btn-outline-danger">Xóa</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
