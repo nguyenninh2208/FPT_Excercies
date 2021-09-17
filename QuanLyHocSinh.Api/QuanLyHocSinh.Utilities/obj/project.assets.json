@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\QuanLyHocSinh.Utilities.csproj",
+      "projectUniqueName": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\QuanLyHocSinh.Utilities.csproj",
       "projectName": "QuanLyHocSinh.Utilities",
-      "projectPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\QuanLyHocSinh.Utilities.csproj",
+      "projectPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\QuanLyHocSinh.Utilities.csproj",
       "packagesPath": "C:\\Users\\WIN 10\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\obj\\",
+      "outputPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

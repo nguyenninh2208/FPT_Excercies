@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 namespace QuanLyHocSinh.ApiServices
 {
-    [Obsolete]
     public class StudentSV : BaseServices
     {
         public StudentSV(IOptions<ApiConfig> config)
@@ -67,6 +66,17 @@ namespace QuanLyHocSinh.ApiServices
                 null,
                 new List<string[]> {
                     new[]{"id",id.ToString()}
+                });
+            return response;
+        }
+        public StudentModel GetStudentByEmail(string email)
+        {
+            var response = GetDataFromApiOut<StudentModel>(
+                "student/getstudentbyemail",
+                Method.GET,
+                null,
+                new List<string[]> {
+                    new[]{"email",email}
                 });
             return response;
         }

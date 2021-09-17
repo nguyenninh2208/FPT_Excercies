@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "i3HT4WqwZkcFSL+2P9i4jggpe8Kd8Yja09ER2ZQ2gattVcdzjKva52yW/V4AFdor09iDzY8kJN30nYMkSNzeaA==",
+  "dgSpecHash": "keDY3bMJZ+5sA/ntjNBoj/7qQZ+b9A1SRqr9vNZvKPMJuYJQc0Hy1XXXZxenOyaXRsFEqHGv0jKomdhAKkohTw==",
   "success": true,
-  "projectFilePath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.App\\QuanLyHocSinh.App.csproj",
+  "projectFilePath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.App\\QuanLyHocSinh.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WIN 10\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.10\\microsoft.aspnetcore.authentication.google.5.0.10.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",

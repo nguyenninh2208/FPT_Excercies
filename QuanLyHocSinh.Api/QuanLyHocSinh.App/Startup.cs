@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using QuanLyHocSinh.DAL.Account;
 using QuanLyHocSinh.DAL.Students;
 using QuanLyHocSinh.DAL.Subjects;
 using QuanLyHocSinh.DTO;
@@ -62,6 +63,7 @@ namespace QuanLyHocSinh.App
 
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<ISubjectsRepository, SubjectsRepository>();
+            services.AddScoped<IUserAccountRepository, UserAccountRepository>();
             services.AddSingleton<DAL.Dapper.Dapper, DAL.Dapper.Dapper>();
 
             services.AddMvc().AddSessionStateTempDataProvider();

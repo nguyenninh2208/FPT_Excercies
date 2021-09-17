@@ -1,7 +1,7 @@
 ﻿@model QuanLyHocSinh.Models.StudentModel
 
-<form asp-action="InsertStudent" asp-controller="Student" data-ajax="true" data-ajax-method="POST"  data-ajax-success="onSuccess" data-ajax-complete="onComplete"  data-ajax-failure="onError">
-   @Html.AntiForgeryToken()
+<form asp-action="InsertStudent" asp-controller="Student" data-ajax="true" data-ajax-method="POST" data-ajax-success="onSuccess" data-ajax-complete="onComplete" data-ajax-failure="onError">
+    @Html.AntiForgeryToken()
     <div class="form-group">
         <label>Mã:</label>
         <input type="text" asp-for="Code" class="form-control" placeholder="Mã">
@@ -13,6 +13,10 @@
     <div class="form-group">
         <label>Lớp:</label>
         <input type="text" asp-for="Class" class="form-control" placeholder="Lớp">
+    </div>
+    <div class="form-group">
+        <label>Email:</label>
+        <input type="text" asp-for="Email" class="form-control" placeholder="Email">
     </div>
     <div class="form-group">
         <label>Ngày sinh:</label>

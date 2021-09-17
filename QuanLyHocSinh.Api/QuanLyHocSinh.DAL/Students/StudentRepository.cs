@@ -34,6 +34,13 @@ namespace QuanLyHocSinh.DAL.Students
             return _dapper.GetList<StudentModel>("Duong_SP_GetAll_Student", dbParams);
         }
 
+        public StudentModel GetStudentByEmail(string email)
+        {
+            var dbParams = new DynamicParameters();
+            dbParams.Add("@Email", email);
+            return _dapper.Get<StudentModel>("Duong_SP_GetStudentByEmail", dbParams);
+        }
+
         public StudentModel GetStudentById(int id)
         {
             var dbParams = new DynamicParameters();
@@ -47,6 +54,7 @@ namespace QuanLyHocSinh.DAL.Students
             var output = _dapper.ExecuteNonQueryWithOutObject(
                 "Duong_SP_Student_I",
                 "@Name", student.Name,
+                "@Email", student.Email,
                 "@BDay", student.B_Day,
                 "@Class", student.Class,
                 "@Code", student.Code,
@@ -67,6 +75,7 @@ namespace QuanLyHocSinh.DAL.Students
                   "Duong_SP_Student_U",
                   "@ID", student.ID,
                   "@Name", student.Name,
+                  "@Email", student.Email,
                   "@BDay", student.B_Day,
                   "@Class", student.Class,
                   "@RowEffect|out", 0);

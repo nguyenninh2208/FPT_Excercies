@@ -25,6 +25,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Subjects" asp-action="IndexSubjects">Môn Học</a>
                         </li>
                     </ul>
+                    <form class="form-inline my-2 my-lg-0" asp-controller="auth" asp-action="logout" method="post">
+                        <input type="submit" value="Đăng xuất" style="background:none;outline:none; color:#000;border:none"/>
+                    </form>
                 </div>
             </div>
         </nav>

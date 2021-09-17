@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj": {}
+    "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj": {}
   },
   "projects": {
-    "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj": {
+    "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj",
+        "projectUniqueName": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj",
         "projectName": "QuanLyHocSinh.Models",
-        "projectPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj",
+        "projectPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj",
         "packagesPath": "C:\\Users\\WIN 10\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.Models\\obj\\",
+        "outputPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

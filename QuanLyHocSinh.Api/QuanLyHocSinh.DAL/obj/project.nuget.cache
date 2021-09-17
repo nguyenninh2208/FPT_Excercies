@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RXGqEXoBloYGcEFsKkqPgmIam6S5+NvNzncuaKmzFen38CDLRf2+reTbO3GVO42K2ZHckNwV92Z3KIAn+8SH7g==",
+  "dgSpecHash": "Uwf5fBVF7RQyXFyPS78VfskIrKapXAZVd1HqrBpsNFP92egy74RyZvs+OiVnd1gv8HhnCCJZEqm+TQ9D8TUCKg==",
   "success": true,
-  "projectFilePath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.DAL\\QuanLyHocSinh.DAL.csproj",
+  "projectFilePath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.DAL\\QuanLyHocSinh.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WIN 10\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

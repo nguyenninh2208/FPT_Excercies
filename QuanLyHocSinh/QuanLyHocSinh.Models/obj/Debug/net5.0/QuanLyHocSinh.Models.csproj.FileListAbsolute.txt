@@ -10,3 +10,14 @@ D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\Qu
 D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.dll
 D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\ref\QuanLyHocSinh.Models.dll
 D:\FPT_Work\Test_Projects\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.pdb
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\bin\Debug\net5.0\QuanLyHocSinh.Models.deps.json
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\bin\Debug\net5.0\QuanLyHocSinh.Models.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\bin\Debug\net5.0\ref\QuanLyHocSinh.Models.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\bin\Debug\net5.0\QuanLyHocSinh.Models.pdb
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.AssemblyInfoInputs.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.AssemblyInfo.cs
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.csproj.CoreCompileInputs.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\ref\QuanLyHocSinh.Models.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.pdb

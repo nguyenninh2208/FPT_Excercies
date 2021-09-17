@@ -10,3 +10,15 @@ D:\FPT_Work\Test_Projects\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\Q
 D:\FPT_Work\Test_Projects\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\ref\QuanLyHocSinh.DTO.dll
 D:\FPT_Work\Test_Projects\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.pdb
 D:\FPT_Work\Test_Projects\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.csproj.AssemblyReference.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\bin\Debug\net5.0\QuanLyHocSinh.DTO.deps.json
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\bin\Debug\net5.0\QuanLyHocSinh.DTO.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\bin\Debug\net5.0\ref\QuanLyHocSinh.DTO.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\bin\Debug\net5.0\QuanLyHocSinh.DTO.pdb
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.csproj.AssemblyReference.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.AssemblyInfoInputs.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.AssemblyInfo.cs
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.csproj.CoreCompileInputs.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\ref\QuanLyHocSinh.DTO.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.DTO\obj\Debug\net5.0\QuanLyHocSinh.DTO.pdb

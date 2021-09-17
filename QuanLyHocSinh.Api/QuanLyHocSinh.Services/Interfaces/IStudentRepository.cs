@@ -14,5 +14,6 @@ namespace QuanLyHocSinh.Services.Interfaces
         int UpdateStudent(StudentModel student);
         int DeleteStudent(int id);
         StudentModel GetStudentById(int id);
+        StudentModel GetStudentByEmail(string email);
     }
 }
