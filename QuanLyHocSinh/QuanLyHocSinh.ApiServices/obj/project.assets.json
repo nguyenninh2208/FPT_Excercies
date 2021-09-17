@@ -258,11 +258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\QuanLyHocSinh.ApiServices.csproj",
+      "projectUniqueName": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\QuanLyHocSinh.ApiServices.csproj",
       "projectName": "QuanLyHocSinh.ApiServices",
-      "projectPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\QuanLyHocSinh.ApiServices.csproj",
+      "projectPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\QuanLyHocSinh.ApiServices.csproj",
       "packagesPath": "C:\\Users\\WIN 10\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\obj\\",
+      "outputPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -283,8 +283,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj": {
-              "projectPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj"
+            "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj": {
+              "projectPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.Models\\QuanLyHocSinh.Models.csproj"
             }
           }
         }

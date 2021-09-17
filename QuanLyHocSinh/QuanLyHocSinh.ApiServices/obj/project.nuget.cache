@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gJU4zbf1+/fb8Vk+FBZtMJ4Lzy5egcvShSdR4/EHjNhRgegooeUaZ96tGDE5qD3qrHMJVa5kloVAibGb0u0K6Q==",
+  "dgSpecHash": "WVRYM+J6S61Wu+fuztx3B0fNIxNk+iaUBYETA24H+CQk8NQGhuiu/Py9KXUyoRsl1k4pMVFJx3Nkc2pLxbNHNg==",
   "success": true,
-  "projectFilePath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\QuanLyHocSinh.ApiServices.csproj",
+  "projectFilePath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\QuanLyHocSinh.ApiServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

@@ -53,5 +53,11 @@ namespace QuanLyHocSinh.App.Controllers
             var result = _studentRepos.GetStudentById(id);
             return Ok(result);
         }
+        [HttpGet("getstudentbyemail")]
+        public IActionResult GetStudentByEmail(string email)
+        {
+            var result = _studentRepos.GetStudentByEmail(email);
+            return Ok(result);
+        }
     }
 }

@@ -13,5 +13,6 @@ namespace QuanLyHocSinh.Models
         public string Name { get; set; }
         public DateTime B_Day { get; set; }
         public string Class { get; set; }
+        public string Email { get; set; }
     }
 }

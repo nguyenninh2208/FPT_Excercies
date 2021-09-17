@@ -2162,11 +2162,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.App\\QuanLyHocSinh.App.csproj",
+      "projectUniqueName": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.App\\QuanLyHocSinh.App.csproj",
       "projectName": "QuanLyHocSinh.App",
-      "projectPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.App\\QuanLyHocSinh.App.csproj",
+      "projectPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.App\\QuanLyHocSinh.App.csproj",
       "packagesPath": "C:\\Users\\WIN 10\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.App\\obj\\",
+      "outputPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -2187,14 +2187,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.DAL\\QuanLyHocSinh.DAL.csproj": {
-              "projectPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.DAL\\QuanLyHocSinh.DAL.csproj"
+            "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.DAL\\QuanLyHocSinh.DAL.csproj": {
+              "projectPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.DAL\\QuanLyHocSinh.DAL.csproj"
             },
-            "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.Services\\QuanLyHocSinh.Services.csproj": {
-              "projectPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.Services\\QuanLyHocSinh.Services.csproj"
+            "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.Services\\QuanLyHocSinh.Services.csproj": {
+              "projectPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.Services\\QuanLyHocSinh.Services.csproj"
             },
-            "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\QuanLyHocSinh.Utilities.csproj": {
-              "projectPath": "D:\\FPT_Work\\Test_Projects\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\QuanLyHocSinh.Utilities.csproj"
+            "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\QuanLyHocSinh.Utilities.csproj": {
+              "projectPath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh.Api\\QuanLyHocSinh.Utilities\\QuanLyHocSinh.Utilities.csproj"
             }
           }
         }
