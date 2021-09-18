@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DLhIrKmFhoQ/IguWqJeCJWVYu2AzuAYg1xe2td/voFjqnxZMmjafWp02XmkjGIK3lNkAyjoueZPXsYjeAQMFYA==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\C#\\NetCore\\Kafka_Research\\ConsoleApp\\ConsoleApp.Productor\\ConsoleApp.Productor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WIN 10\\.nuget\\packages\\confluent.kafka\\1.8.0\\confluent.kafka.1.8.0.nupkg.sha512",
+    "C:\\Users\\WIN 10\\.nuget\\packages\\librdkafka.redist\\1.8.0\\librdkafka.redist.1.8.0.nupkg.sha512",
+    "C:\\Users\\WIN 10\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

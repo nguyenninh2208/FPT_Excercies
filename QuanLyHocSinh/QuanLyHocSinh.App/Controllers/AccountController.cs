@@ -42,8 +42,13 @@ namespace QuanLyHocSinh.App.Controllers
             if (string.IsNullOrEmpty(returnUrl)) returnUrl = "/home/index";
             if (User.Identity.IsAuthenticated)
             {
-                string token = Guid.NewGuid().ToString();
-                _accountSV.InsertUserToken(int.Parse(User.Identity.Name), token);
+                var cookie = HttpContext.Request.Cookies["LoginCookieIdentity"];
+                if (cookie != null)
+                {
+                    var user = JsonConvert.DeserializeObject<UserAccount>(cookie);
+                    string token = Guid.NewGuid().ToString();
+                    _accountSV.InsertUserToken(user.UserID, token);
+                }
 
                 return Redirect(WebUtility.HtmlDecode(returnUrl));
             }
@@ -54,7 +59,7 @@ namespace QuanLyHocSinh.App.Controllers
         [Route("login")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public  IActionResult LoginForm(LoginModel model)
+        public IActionResult LoginForm(LoginModel model)
         {
             try
             {
@@ -64,7 +69,7 @@ namespace QuanLyHocSinh.App.Controllers
                     var isPswMatch = user.Password.Equals(model.Password);
                     if (isPswMatch)
                     {
-                         UserLogin(user);
+                        UserLogin(user);
 
                         string token = Guid.NewGuid().ToString();
                         _accountSV.InsertUserToken(user.UserID, token);
@@ -93,7 +98,7 @@ namespace QuanLyHocSinh.App.Controllers
             var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.NameIdentifier,user.UserID.ToString()),
-                new Claim(ClaimTypes.Name,user.UserID.ToString()),
+                new Claim(ClaimTypes.Name,user.Name.ToString()),
             };
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -110,7 +115,7 @@ namespace QuanLyHocSinh.App.Controllers
                 HttpContext.Response.Cookies.Append("LoginCookieIdentity", JsonConvert.SerializeObject(user));
             }
 
-             HttpContext.SignInAsync(principal, properties);
+            HttpContext.SignInAsync(principal, properties);
         }
 
         [Route("logout")]
@@ -134,31 +139,35 @@ namespace QuanLyHocSinh.App.Controllers
         {
             var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-            var claims = result.Principal.Identities
-                .FirstOrDefault().Claims.Select(claim => new
-                {
-                    claim.Issuer,
-                    claim.OriginalIssuer,
-                    claim.Type,
-                    claim.Value
-                });
+            return RedirectToAction("Index", "Home");
 
-            var email = claims.Last().Value;
-            var user = _studentSV.GetStudentByEmail(email);
+            //var claims = result.Principal.Identities
+            //    .FirstOrDefault().Claims.Select(claim => new
+            //    {
+            //        claim.Issuer,
+            //        claim.OriginalIssuer,
+            //        claim.Type,
+            //        claim.Value
+            //    });
 
-            if (user != null)
-            {
-                var userAccount = new UserAccount() { UserID = user.ID };
-                UserLogin(userAccount);
+            //var email = claims.Last().Value;
+            //var user = _studentSV.GetStudentByEmail(email);
 
-                return RedirectToAction("Index", "Home");
-            }
-            else
-            {
-                await HttpContext.SignOutAsync();
-                TempData["Message"] = "Tài khoản email chưa được đăng ký";
-                return  RedirectToAction("Login", "Account");
-            }
+
+
+            //if (user != null)
+            //{
+            //    var userAccount = new UserAccount() { UserID = user.ID };
+            //    UserLogin(userAccount);
+
+            //    return RedirectToAction("Index", "Home");
+            //}
+            //else
+            //{
+            //    //await HttpContext.SignOutAsync();
+            //    //TempData["Message"] = "Tài khoản email chưa được đăng ký";
+            //    return  RedirectToAction("Login", "Account");
+            //}
         }
         #endregion
     }
