@@ -43,5 +43,19 @@ namespace QuanLyHocSinh.ApiServices
 
             return response != null ? response.RowEffect : 1;
         }
+        public UserAccount UserAuth(string userName, string password)
+        {
+
+            var output = GetDataFromApiOut<UserAccount>(
+                "account/userauth",
+                Method.POST,
+                null,
+                new List<string[]>
+                {
+                    new[] {"userName",userName},
+                    new[]{"password",password}
+                });
+            return output;
+        }
     }
 }

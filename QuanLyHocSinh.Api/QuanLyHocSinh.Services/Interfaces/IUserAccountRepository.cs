@@ -11,5 +11,6 @@ namespace QuanLyHocSinh.Services.Interfaces
     {
         public UserAccount GetUserAccountByUserName(string userName);
         public int InsertUserToken(int userId, string token);
+        public UserAccount UserAuth(string userName, string password);
     }
 }

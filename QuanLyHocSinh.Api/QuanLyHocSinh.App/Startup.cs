@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Caching.StackExchangeRedis;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -27,16 +30,23 @@ namespace QuanLyHocSinh.App
             if (operation.Parameters == null)
                 operation.Parameters = new List<OpenApiParameter>();
 
-            operation.Parameters.Add(new OpenApiParameter
-            {
-                Name = "UserName",
-                In = ParameterLocation.Header,
-                Required = false
-            });
+            //operation.Parameters.Add(new OpenApiParameter
+            //{
+            //    Name = "UserName",
+            //    In = ParameterLocation.Header,
+            //    Required = false
+            //});
+
+            //operation.Parameters.Add(new OpenApiParameter
+            //{
+            //    Name = "Password",
+            //    In = ParameterLocation.Header,
+            //    Required = false
+            //});
 
             operation.Parameters.Add(new OpenApiParameter
             {
-                Name = "Password",
+                Name = "token",
                 In = ParameterLocation.Header,
                 Required = false
             });
@@ -67,8 +77,13 @@ namespace QuanLyHocSinh.App
             services.AddSingleton<DAL.Dapper.Dapper, DAL.Dapper.Dapper>();
 
             services.AddMvc().AddSessionStateTempDataProvider();
-            services.AddDistributedMemoryCache();
             services.AddSession();
+
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = "redis.haipv.com:6379,password=mB7@!Ye6Mxh*dS%S";
+                options.InstanceName = "Sample";
+            });
 
             services.AddSwaggerGen(c =>
             {
@@ -84,6 +99,24 @@ namespace QuanLyHocSinh.App
             }));
 
             services.Configure<WebApiConfig>(Configuration.GetSection("WebAPIConfig"));
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.SaveToken = true;
+
+                    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration.GetSection("Jwt:Issuer").Value,
+                        ValidAudience = Configuration.GetSection("Jwt:Issuser").Value,
+                        ClockSkew = TimeSpan.Zero
+                    };
+                });
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -103,9 +136,9 @@ namespace QuanLyHocSinh.App
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
 
-           
+
             app.UseHttpsRedirection();
-            
+
             app.UseRouting();
             app.UseCors("AllowCors");
             app.UseAuthorization();
