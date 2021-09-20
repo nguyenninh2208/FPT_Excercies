@@ -17,7 +17,11 @@
         <div class="col-md-12">
             <h2>Danh sách học sinh</h2>
             <div id="dsSubj">
-                <partial name="_GetListSubjects" model="Model" />
+                @if (Model != null)
+                {
+                    <partial name="_GetListSubjects" model="Model" />
+                }
+
             </div>
 
         </div>

@@ -115,6 +115,7 @@ namespace QuanLyHocSinh.App.Controllers
         [HttpPost]
         public IActionResult LogOut()
         {
+            HttpContext.Response.Cookies.Delete("LoginCookieIdentity");
             HttpContext.SignOutAsync();
             return Redirect("/auth/login");
         }
