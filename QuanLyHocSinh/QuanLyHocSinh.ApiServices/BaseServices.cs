@@ -13,6 +13,7 @@ namespace QuanLyHocSinh.ApiServices
     public class BaseServices
     {
         public ApiConfig pConfig { get; set; }
+        public string token = "";
 
         protected T GetDataFromApiOut<T, TParam>(
             string resources,
@@ -38,9 +39,10 @@ namespace QuanLyHocSinh.ApiServices
             {
                 headers = new List<string[]>();
             }
+            headers.Add(new[] { "token", token });
 
-            headers.Add(new[] { "UserName", pConfig.UserName });
-            headers.Add(new[] { "Password", pConfig.Password });
+            //headers.Add(new[] { "UserName", pConfig.UserName });
+            //headers.Add(new[] { "Password", pConfig.Password });
 
             return api.ExecuteResponse<T>(resources, headers, queryStrings, null, (parameters != null ? parameters.ToArray() : null));
         }
@@ -58,9 +60,9 @@ namespace QuanLyHocSinh.ApiServices
             {
                 headers = new List<string[]>();
             }
-
-            headers.Add(new[] { "UserName", pConfig.UserName });
-            headers.Add(new[] { "Password", pConfig.Password });
+            headers.Add(new[] { "token", token });
+            //headers.Add(new[] { "UserName", pConfig.UserName });
+            //headers.Add(new[] { "Password", pConfig.Password });
 
             return api.ExecuteResponse<T>(resources, headers, queryStrings, null, null);
         }

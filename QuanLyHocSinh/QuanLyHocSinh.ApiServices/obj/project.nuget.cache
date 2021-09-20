@@ -1,16 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "WVRYM+J6S61Wu+fuztx3B0fNIxNk+iaUBYETA24H+CQk8NQGhuiu/Py9KXUyoRsl1k4pMVFJx3Nkc2pLxbNHNg==",
+  "dgSpecHash": "UDRUQXutY2Se5zsBQt3SFhCmPHLGf2hR15JiXjabOINMs2wqHGq3M2U4akMUsUsNSzAFapBqvE0zEuriBOw/XQ==",
   "success": true,
   "projectFilePath": "D:\\FPT_Work\\Excercies\\QuanLyHocSinh\\QuanLyHocSinh.ApiServices\\QuanLyHocSinh.ApiServices.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\WIN 10\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\WIN 10\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+    "C:\\Users\\WIN 10\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
+    "C:\\Users\\WIN 10\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

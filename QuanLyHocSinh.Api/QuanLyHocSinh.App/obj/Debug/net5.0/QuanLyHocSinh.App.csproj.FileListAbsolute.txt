@@ -132,3 +132,10 @@ D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\obj\Debug\net5.0\QuanL
 D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\obj\Debug\net5.0\ref\QuanLyHocSinh.App.dll
 D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\obj\Debug\net5.0\QuanLyHocSinh.App.pdb
 D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\obj\Debug\net5.0\QuanLyHocSinh.App.genruntimeconfig.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\bin\Debug\net5.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\bin\Debug\net5.0\StackExchange.Redis.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.App\bin\Debug\net5.0\Newtonsoft.Json.dll

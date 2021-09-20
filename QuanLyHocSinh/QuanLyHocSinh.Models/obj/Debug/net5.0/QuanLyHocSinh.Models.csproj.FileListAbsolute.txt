@@ -21,3 +21,4 @@ D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLy
 D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.dll
 D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\ref\QuanLyHocSinh.Models.dll
 D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.pdb
+D:\FPT_Work\Excercies\QuanLyHocSinh\QuanLyHocSinh.Models\obj\Debug\net5.0\QuanLyHocSinh.Models.csproj.AssemblyReference.cache

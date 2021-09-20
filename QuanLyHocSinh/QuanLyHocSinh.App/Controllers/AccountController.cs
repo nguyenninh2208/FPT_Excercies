@@ -42,17 +42,16 @@ namespace QuanLyHocSinh.App.Controllers
             if (string.IsNullOrEmpty(returnUrl)) returnUrl = "/home/index";
             if (User.Identity.IsAuthenticated)
             {
-                var cookie = HttpContext.Request.Cookies["LoginCookieIdentity"];
-                if (cookie != null)
-                {
-                    var user = JsonConvert.DeserializeObject<UserAccount>(cookie);
-                    string token = Guid.NewGuid().ToString();
-                    _accountSV.InsertUserToken(user.UserID, token);
-                }
-
+                //var cookie = HttpContext.Request.Cookies["LoginCookieIdentity"];
+                //if (cookie != null)
+                //{
+                //    var user = JsonConvert.DeserializeObject<UserAccount>(cookie);
+                //    string token = Guid.NewGuid().ToString();
+                //    _accountSV.InsertUserToken(user.UserID, token);
+                //}
                 return Redirect(WebUtility.HtmlDecode(returnUrl));
             }
-            if (TempData.ContainsKey("Message")) ViewBag.Message = TempData["Message"];
+            //if (TempData.ContainsKey("Message")) ViewBag.Message = TempData["Message"];
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
@@ -63,19 +62,13 @@ namespace QuanLyHocSinh.App.Controllers
         {
             try
             {
-                var user = _accountSV.GetUserAccountByName(model.UserName);
+                //var user = _accountSV.GetUserAccountByName(model.UserName);
+                var user = _accountSV.UserAuth(model.UserName, model.Password);
                 if (user != null)
                 {
-                    var isPswMatch = user.Password.Equals(model.Password);
-                    if (isPswMatch)
-                    {
-                        UserLogin(user);
+                    UserLogin(user);
 
-                        string token = Guid.NewGuid().ToString();
-                        _accountSV.InsertUserToken(user.UserID, token);
-
-                        return Ok(new { success = true, returnUrl = model.ReturnUrl });
-                    }
+                    return Ok(new { success = true, returnUrl = model.ReturnUrl });
                 }
                 return Ok(new { success = false, message = "Tên đăng nhập hoặc mật khẩu không đúng." });
             }

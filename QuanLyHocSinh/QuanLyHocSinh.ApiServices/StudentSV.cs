@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Options;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using QuanLyHocSinh.Models;
 using RestSharp;
 using System;
@@ -11,9 +13,15 @@ namespace QuanLyHocSinh.ApiServices
 {
     public class StudentSV : BaseServices
     {
-        public StudentSV(IOptions<ApiConfig> config)
+        public StudentSV(IOptions<ApiConfig> config, IHttpContextAccessor httpContext)
         {
             pConfig = config.Value;
+            var cookie = httpContext.HttpContext.Request.Cookies["LoginCookieIdentity"];
+            if (!string.IsNullOrEmpty(cookie))
+            {
+                var user = JsonConvert.DeserializeObject<UserAccount>(cookie);
+                token = user.Token;
+            }
         }
         public List<StudentModel> GetListStudent(int pageIndex, int pageSize)
         {

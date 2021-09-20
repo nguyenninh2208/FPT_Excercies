@@ -17,7 +17,10 @@
         <div class="col-md-12">
             <h2>Danh sách học sinh</h2>
             <div id="dsHS">
-                <partial name="_GetListStudent" model="Model" />
+                @if (Model != null)
+                {
+                    <partial name="_GetListStudent" model="Model" />
+                }
             </div>
 
         </div>
@@ -48,7 +51,7 @@
         }
 
         var updateHs = function (id) {
-            ShowPopupCustomize('/student/_UpdateStudent?id='+id, "Sửa HS", 700, 1, "", "");
+            ShowPopupCustomize('/student/_UpdateStudent?id=' + id, "Sửa HS", 700, 1, "", "");
         }
 
         var deleteHS = function (id) {

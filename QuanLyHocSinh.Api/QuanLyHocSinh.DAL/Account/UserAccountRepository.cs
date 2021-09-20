@@ -38,5 +38,17 @@ namespace QuanLyHocSinh.DAL.Account
                  "@RowEffect|out",0);
             return int.Parse((output != null && output.Any()) ? output[0].Value : "0");
         }
+
+        public UserAccount UserAuth(string userName, string password)
+        {
+            var dbParams = new DynamicParameters();
+            dbParams.Add("@UserName", userName, DbType.String, ParameterDirection.Input);
+            dbParams.Add("@Password", password, DbType.String, ParameterDirection.Input);
+
+            var result = _dapper.Get<UserAccount>(
+                "Duong_SP_AuthUser",
+                dbParams);
+            return result;
+        }
     }
 }

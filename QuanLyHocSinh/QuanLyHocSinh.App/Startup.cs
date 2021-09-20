@@ -35,6 +35,7 @@ namespace QuanLyHocSinh.App
             services.AddScoped<UserAccountSV, UserAccountSV>();
 
             services.Configure<ApiConfig>(Configuration.GetSection("Api"));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddMvc().AddMvcOptions(option => option.EnableEndpointRouting = false);
@@ -47,6 +48,8 @@ namespace QuanLyHocSinh.App
             }).AddCookie(options =>
             {
                 options.LoginPath = "/auth/login";
+                options.ReturnUrlParameter = "returnUrl";
+                options.LogoutPath = "/auth/logout";
             })
             .AddGoogle(options =>
             {
@@ -56,6 +59,7 @@ namespace QuanLyHocSinh.App
                 options.ClientId = googleAuthNSection["ClientId"];
                 options.ClientSecret = googleAuthNSection["ClientSecret"];
             });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

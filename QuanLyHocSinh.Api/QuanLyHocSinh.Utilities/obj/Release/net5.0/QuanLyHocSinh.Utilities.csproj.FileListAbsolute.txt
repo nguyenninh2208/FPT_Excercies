@@ -1,0 +1,12 @@
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\bin\Release\net5.0\QuanLyHocSinh.Utilities.deps.json
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\bin\Release\net5.0\QuanLyHocSinh.Utilities.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\bin\Release\net5.0\ref\QuanLyHocSinh.Utilities.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\bin\Release\net5.0\QuanLyHocSinh.Utilities.pdb
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\obj\Release\net5.0\QuanLyHocSinh.Utilities.csproj.AssemblyReference.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\obj\Release\net5.0\QuanLyHocSinh.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\obj\Release\net5.0\QuanLyHocSinh.Utilities.AssemblyInfoInputs.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\obj\Release\net5.0\QuanLyHocSinh.Utilities.AssemblyInfo.cs
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\obj\Release\net5.0\QuanLyHocSinh.Utilities.csproj.CoreCompileInputs.cache
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\obj\Release\net5.0\QuanLyHocSinh.Utilities.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\obj\Release\net5.0\ref\QuanLyHocSinh.Utilities.dll
+D:\FPT_Work\Excercies\QuanLyHocSinh.Api\QuanLyHocSinh.Utilities\obj\Release\net5.0\QuanLyHocSinh.Utilities.pdb
