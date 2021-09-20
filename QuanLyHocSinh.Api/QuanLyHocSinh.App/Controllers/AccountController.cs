@@ -31,12 +31,12 @@ namespace QuanLyHocSinh.App.Controllers
             _cache = cache;
         }
 
-        [HttpGet("getuseraccount")]
-        public IActionResult GetUserAccountByUserName(string userName)
-        {
-            var result = _userAccRepos.GetUserAccountByUserName(userName);
-            return Ok(result);
-        }
+        //[HttpGet("getuseraccount")]
+        //public IActionResult GetUserAccountByUserName(string userName)
+        //{
+        //    var result = _userAccRepos.GetUserAccountByUserName(userName);
+        //    return Ok(result);
+        //}
 
         //[HttpPost("insertusertoken")]
         //public IActionResult InsertUserToken(int userId, string token)

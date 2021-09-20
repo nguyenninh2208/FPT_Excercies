@@ -111,8 +111,7 @@ namespace QuanLyHocSinh.App
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
                         ValidIssuer = Configuration.GetSection("Jwt:Issuer").Value,
-                        ValidAudience = Configuration.GetSection("Jwt:Issuser").Value,
-                        ClockSkew = TimeSpan.Zero
+                        ValidAudience = Configuration.GetSection("Jwt:Issuser").Value
                     };
                 });
 
