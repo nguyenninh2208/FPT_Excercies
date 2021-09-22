@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyHocSinh.App", "QuanLyHocSinh.App\QuanLyHocSinh.App.csproj", "{7B8FAEB3-F0E0-4793-A6E7-6C2A3F595167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLyHocSinh.App", "QuanLyHocSinh.App\QuanLyHocSinh.App.csproj", "{7B8FAEB3-F0E0-4793-A6E7-6C2A3F595167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyHocSinh.DAL", "QuanLyHocSinh.DAL\QuanLyHocSinh.DAL.csproj", "{68FCEB90-73E1-42C6-A141-CE5F1E3237C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLyHocSinh.DAL", "QuanLyHocSinh.DAL\QuanLyHocSinh.DAL.csproj", "{68FCEB90-73E1-42C6-A141-CE5F1E3237C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyHocSinh.Utilities", "QuanLyHocSinh.Utilities\QuanLyHocSinh.Utilities.csproj", "{0C901AA1-C585-42E3-9186-A079B4294AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLyHocSinh.Utilities", "QuanLyHocSinh.Utilities\QuanLyHocSinh.Utilities.csproj", "{0C901AA1-C585-42E3-9186-A079B4294AC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyHocSinh.DTO", "QuanLyHocSinh.DTO\QuanLyHocSinh.DTO.csproj", "{1371308C-0761-4ED4-B63F-507BCD523D68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLyHocSinh.DTO", "QuanLyHocSinh.DTO\QuanLyHocSinh.DTO.csproj", "{1371308C-0761-4ED4-B63F-507BCD523D68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyHocSinh.Services", "QuanLyHocSinh.Services\QuanLyHocSinh.Services.csproj", "{98B291AC-1D58-4FF9-B327-35592E542807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLyHocSinh.Services", "QuanLyHocSinh.Services\QuanLyHocSinh.Services.csproj", "{98B291AC-1D58-4FF9-B327-35592E542807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

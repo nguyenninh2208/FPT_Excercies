@@ -49,13 +49,13 @@ namespace QuanLyHocSinh.App.ApiAuthorize
                         string userName = jwtToken.Claims.FirstOrDefault(x => x.Type == "sub").Value;
                         var userService = (IUserAccountRepository)sv.GetService(typeof(IUserAccountRepository));
                         user = userService.GetUserAccountByUserName(userName);
-                        if (user is null)
+                        if (user != null && !string.IsNullOrEmpty(user.Token))
                         {
-                            actionContext.Result = new ObjectResult(null) { StatusCode = (int)HttpStatusCode.Unauthorized };
+                            cacheService.SetUser(user.Token, user);
                         }
                         else
                         {
-                            cacheService.SetUser(user.Token, user);
+                            actionContext.Result = new ObjectResult(null) { StatusCode = (int)HttpStatusCode.Unauthorized };
                         }
                     }
                 }

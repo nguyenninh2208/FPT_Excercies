@@ -36,7 +36,7 @@ namespace QuanLyHocSinh.App.Extentsions
             options.SlidingExpiration = unusedExpireTime;
 
             var jsonData = JsonConvert.SerializeObject(data);
-            cache.SetString(key, jsonData);
+            cache.SetString(key, jsonData, options);
         }
 
         public static T GetUser<T>(this IDistributedCache cache, string key)
