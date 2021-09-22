@@ -60,9 +60,10 @@ namespace QuanLyHocSinh.App.Controllers
 
                 string token = GenerateWebToken(user);
                 _userAccRepos.InsertUserToken(user.UserID, token);
-                _cache.SetUser(token, user);
 
                 user.Token = token;
+
+                _cache.SetUser(token, user);
                 return Ok(user);
             }
             else
